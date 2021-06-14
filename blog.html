@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- font icons -->
+      <link rel="stylesheet" href="css/all.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <section class="sub-header">
+      <nav>
+          <a href="index.html"><img src="images/logo.png" alt=""></a>
+          <div class="nav-links" id="nav-links">
+            <i class="fas fa-times" onclick="hidemenu()"></i>
+             <ul>
+                  <li><a href="">HOME</a></li>
+                  <li><a href="">ABOUT</a></li>
+                  <li><a href="">COURSE</a></li>
+                  <li><a href="">BLOG</a></li>
+                  <li><a href="">CONTACT</a></li>
+              </ul>
+          </div>
+          <i class="fas fa-bars"onclick="showmenu()"></i>
+          </nav>
+          <h1>our certificate & online programs for 2021</h1>
+    </section>
+   
+    <!-- -----blog--- -->
+   
+   <section class="blog-content">
+       <div class="row">
+           <div class="blog-left">
+               <img src="./images/certificate.jpg" alt="">
+               <h2>our certificate & online programs for 2021</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia nostrum commodi aliquam debitis vel modi eos porro nisi voluptatum, alias cum obcaecati omnis hic aspernatur nihil optio animi iusto deleniti! Quasi itaque quas, eum commodi, autem ut nam similique quidem facere molestias labore nihil blanditiis ipsa sunt minus dicta corporis.</p><br>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia nostrum commodi aliquam debitis vel modi eos porro nisi voluptatum, alias cum obcaecati omnis hic aspernatur nihil optio animi iusto deleniti! Quasi itaque quas, eum commodi, autem ut nam similique quidem facere molestias labore nihil blanditiis ipsa sunt minus dicta corporis.</p><br>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia nostrum commodi aliquam debitis vel modi eos porro nisi voluptatum, alias cum obcaecati omnis hic aspernatur nihil optio animi iusto deleniti! Quasi itaque quas, eum commodi, autem ut nam similique quidem facere molestias labore nihil blanditiis ipsa sunt minus dicta corporis.</p><br>
+              <div class="comment-box">
+                  <h3>leave a comment</h3>
+                  <form action="" class="comment-form">
+                      <input type="text" placeholder="enter the name">
+                      <input type="text" placeholder="enter the e-mail">
+                      <textarea name="" id=""  rows="5" placeholder="your comment"></textarea>
+                      <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                  </form>
+              </div>
+           </div>
+           <div class="blog-right">
+              
+               <h3>Post categaries</h3>
+               <div>
+           <span>Business Analytics </span>
+           <span>15</span>
+           </div>
+           <div>
+           <span> Data science</span>
+           <span>35</span>
+        </div>
+        <div>
+           <span>Machine learning </span>
+           <span>45</span>
+        </div>
+        <div>
+           <span>computer Science</span>
+           <span>15</span>
+        </div>
+        <div>
+           <span>Auto Cad</span>
+           <span>24</span>
+        </div>
+        </div>
+       </div>
+   </section>
+
+ 
+<!-- footer -->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias vitae aspernatur quibusdam quia, excepturi est laudantium dolores hic praesentium atque non soluta. Consectetur magni suscipit vitae ratione facere recusandae praesentium.</p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+</section>
+
+
+
+
+
+    <!-- -----javascript---- -->
+    <script>
+        var navlinks = document.getElementById("nav-links");
+        function showmenu(){
+            navlinks.style.right="0";
+        }
+        function showmenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
